@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "image": "images/hero-signature-bouquet.jpg",
+      "caption": "Blush & Peach Wrapped Bouquet",
+      "category": "bouquets",
+      "alt": "Blush and peach wrapped bouquet with eucalyptus"
+    },
+    {
+      "image": "images/bridal-bouquet-ivory-green.jpg",
+      "caption": "Bridal Bouquet, Ivory & Green",
+      "category": "weddings",
+      "alt": "Bride holding an ivory and green bridal bouquet"
+    },
+    {
+      "image": "images/reception-tablescape.jpg",
+      "caption": "Reception Tablescape, Blush & Blue",
+      "category": "events",
+      "alt": "Long reception table lined with blush, blue, and white floral arrangements"
+    },
+    {
+      "image": "images/sydnee-arranging.jpg",
+      "caption": "Fresh Arrangement, In Progress",
+      "category": "bouquets",
+      "alt": "Sydnee hand-arranging a fresh white and green vased arrangement"
+    },
+    {
+      "image": "images/engagement-ring-rose.jpg",
+      "caption": "Ring & Rose, Engagement Session",
+      "category": "weddings",
+      "alt": "Engagement ring nestled in a mauve rose surrounded by baby's breath"
+    },
+    {
+      "image": "images/sweetheart-table-wedding.jpg",
+      "caption": "Sweetheart Table, Barn Wedding",
+      "category": "weddings",
+      "alt": "Barn wedding sweetheart table with tall white and green floral arrangements"
+    },
+    {
+      "image": "images/proposal-florals-keepsakes.jpg",
+      "caption": "Proposal Florals & Keepsakes",
+      "category": "weddings",
+      "alt": "Vased florals beside a framed engagement photo and Bible"
+    },
+    {
+      "image": "images/pink-peony-ranunculus-bouquet.jpg",
+      "caption": "Pink Peony & Ranunculus Bouquet",
+      "category": "bouquets",
+      "alt": "Pink peony and ranunculus bouquet wrapped in kraft paper"
+    },
+    {
+      "image": "images/bridesmaid-bouquet-navy.jpg",
+      "caption": "Prom Bouquet, Ivory & Navy",
+      "category": "events",
+      "alt": "Prom-goer in a navy dress holding a white rose and hydrangea bouquet"
+    },
+    {
+      "image": "images/garden-rose-carnation-bouquet.jpg",
+      "caption": "Garden Rose & Carnation Bouquet",
+      "category": "weddings",
+      "alt": "Orange, pink, and white garden rose and carnation bouquet"
+    },
+    {
+      "image": "images/orange-boutonniere.jpg",
+      "caption": "Groom's Boutonniere, Orange & Ivory",
+      "category": "weddings",
+      "alt": "Groom's boutonniere with an orange rose and white carnation"
+    }
+  ]
+}
