@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Flowers by Syd</title>
+<meta name="description" content="Browse bouquets, weddings, and event florals designed by Flowers by Syd in Central Arkansas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Dancing+Script:wght@600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo">Flowers <span>by</span> Syd</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Meet Sydnee</a></li>
+      <li><a href="services.html">Services &amp; Pricing</a></li>
+      <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="contact.html">Order &amp; Contact</a></li>
+      <li><a href="contact.html#order-form" class="btn btn-primary mobile-cta">Order Flowers</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html#order-form" class="btn btn-primary">Order Flowers</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Gallery</span>
+      <h1>A peek at the petals</h1>
+      <p>A sample of bouquets, weddings, and events I've had the joy of designing for. For the full, up-to-date feed, hop over to Instagram.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-bar" role="tablist" aria-label="Filter gallery by category">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="bouquets">Bouquets</button>
+        <button class="filter-btn" data-filter="weddings">Weddings</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <p class="gallery-loading">Loading gallery&hellip;</p>
+      </div>
+
+      <p class="gallery-note">More real photos added regularly — follow along on Instagram for the latest.</p>
+    </div>
+  </section>
+
+  <section class="insta-strip">
+    <div class="container">
+      <div class="icon-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </div>
+      <h2>Want to see more?</h2>
+      <p>The full portfolio lives on Instagram, organized into Bouquets, Weddings, and Events highlights — <a class="insta-handle" href="https://www.instagram.com/flowers.by.syd" target="_blank" rel="noopener">@flowers.by.syd</a></p>
+      <div style="margin-top:26px;">
+        <a href="https://www.instagram.com/flowers.by.syd" target="_blank" rel="noopener" class="btn btn-ghost">Message Me on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Flowers by Syd</div>
+        <p>Boutique floral arrangements out of Central Arkansas, made by hand for birthdays, weddings, and every day worth celebrating.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">Meet Sydnee</a></li>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Order &amp; Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Say Hello</h4>
+        <ul>
+          <li><a href="mailto:sydneelknight@att.net">sydneelknight@att.net</a></li>
+          <li><a href="https://www.instagram.com/flowers.by.syd" target="_blank" rel="noopener">@flowers.by.syd</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Flowers by Syd. Made with love in Central Arkansas.</span>
+      <span>Delivery fees not included in listed pricing.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

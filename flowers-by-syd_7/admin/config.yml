@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/gallery"
+public_folder: "images/gallery"
+
+site_url: https://flowersbysyd.com
+display_url: https://flowersbysyd.com
+
+collections:
+  - name: "gallery"
+    label: "Gallery Photos"
+    description: "Add, edit, or remove the photos shown on your website's Gallery page."
+    files:
+      - name: "gallery"
+        label: "Gallery Photos"
+        file: "content/gallery.json"
+        fields:
+          - label: "Photos"
+            name: "items"
+            widget: "list"
+            label_singular: "Photo"
+            summary: "{{fields.caption}} — {{fields.category}}"
+            fields:
+              - label: "Photo"
+                name: "image"
+                widget: "image"
+                hint: "Upload a photo — it'll be resized automatically by the site."
+              - label: "Caption"
+                name: "caption"
+                widget: "string"
+                hint: "Shows under the photo, e.g. \"Blush & Peach Wrapped Bouquet\""
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Bouquets", value: "bouquets" }
+                  - { label: "Weddings", value: "weddings" }
+                  - { label: "Events", value: "events" }
+              - label: "Alt Text (optional)"
+                name: "alt"
+                widget: "string"
+                required: false
+                hint: "A short description for accessibility. If left blank, the caption is used."

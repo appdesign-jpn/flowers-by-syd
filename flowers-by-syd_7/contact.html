@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order &amp; Contact — Flowers by Syd</title>
+<meta name="description" content="Order a wrapped bouquet from Flowers by Syd, or get in touch to plan a vased arrangement, wedding, or event.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Dancing+Script:wght@600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo">Flowers <span>by</span> Syd</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Meet Sydnee</a></li>
+      <li><a href="services.html">Services &amp; Pricing</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" aria-current="page">Order &amp; Contact</a></li>
+      <li><a href="contact.html#order-form" class="btn btn-primary mobile-cta">Order Flowers</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html#order-form" class="btn btn-primary">Order Flowers</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Order &amp; Contact</span>
+      <h1>Let's make someone's day</h1>
+      <p>Fill out the form below for a wrapped bouquet, or reach out directly for vased arrangements, weddings, and events. Have a Pinterest board? Send it my way — I'd love to match it.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+
+      <!-- CONTACT INFO -->
+      <div>
+        <div class="contact-card">
+          <h3>Get in Touch</h3>
+          <p>The fastest way to reach me is Instagram, but email works great too.</p>
+          <div class="contact-list">
+            <div class="contact-row">
+              <span class="icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg>
+              </span>
+              <div>
+                <span class="label">Email</span>
+                <a href="mailto:sydneelknight@att.net">sydneelknight@att.net</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+              </span>
+              <div>
+                <span class="label">Instagram</span>
+                <a href="https://www.instagram.com/flowers.by.syd" target="_blank" rel="noopener">@flowers.by.syd</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <div>
+                <span class="label">Serving</span>
+                <span class="value">Central Arkansas</span>
+              </div>
+            </div>
+          </div>
+          <div class="pinterest-note">
+            <strong>Have inspiration in mind?</strong> Drop a link to your Pinterest board in the order form and I'll design around it — colors, style, all of it.
+          </div>
+        </div>
+      </div>
+
+      <!-- ORDER FORM -->
+      <div id="order-form">
+        <form class="order-form" id="orderForm" action="https://formspree.io/f/mojogbkk" method="POST">
+          <input type="hidden" name="_subject" value="New order — Flowers by Syd">
+
+          <div class="form-success" id="formSuccess">
+            <svg class="success-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <circle class="success-circle" cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.8" fill="none"/>
+              <path class="success-check" d="M15 24l6 6 12-12" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3>Sent!</h3>
+            <p>Your order just went to Sydnee's inbox — she'll follow up by email or Instagram to confirm the details.</p>
+            <p class="success-subnote">Emails usually land within a minute or two. Check spam if you don't see it.</p>
+          </div>
+
+          <div id="formFields">
+            <h3 style="margin-bottom:6px;">Wrapped Bouquet Order Form</h3>
+            <p style="color:var(--ink-soft); margin-bottom:26px;">For vased arrangements, weddings, or events, feel free to skip straight to email or Instagram instead.</p>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="field">
+                <label for="contactMethod">Email or Phone</label>
+                <input type="text" id="contactMethod" name="contactMethod" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="occasion">Occasion</label>
+                <input type="text" id="occasion" name="occasion" placeholder="Birthday, anniversary, just because...">
+              </div>
+              <div class="field">
+                <label for="dateNeeded">Date Needed</label>
+                <input type="date" id="dateNeeded" name="dateNeeded" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="tier">Bouquet Tier</label>
+                <select id="tier" name="tier">
+                  <option>The Simple — $30</option>
+                  <option>The Classic — $50</option>
+                  <option>The Statement — $80</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="fulfillment">Pickup or Delivery</label>
+                <select id="fulfillment" name="fulfillment">
+                  <option>Pickup</option>
+                  <option>Delivery (fee quoted separately)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="pinterest">Pinterest Board or Inspiration Link <span class="hint">(optional)</span></label>
+              <input type="url" id="pinterest" name="pinterest" placeholder="https://pinterest.com/...">
+            </div>
+
+            <div class="field">
+              <label for="notes">Anything else I should know?</label>
+              <textarea id="notes" name="notes" placeholder="Favorite colors, flowers to avoid, who it's for..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-wide">Send My Order</button>
+            <p class="form-error" id="formError">Something went wrong sending your order — please try again, or message me directly on Instagram.</p>
+            <p class="form-note">Orders are sent straight to Sydnee's email via Formspree.</p>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Flowers by Syd</div>
+        <p>Boutique floral arrangements out of Central Arkansas, made by hand for birthdays, weddings, and every day worth celebrating.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">Meet Sydnee</a></li>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Order &amp; Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Say Hello</h4>
+        <ul>
+          <li><a href="mailto:sydneelknight@att.net">sydneelknight@att.net</a></li>
+          <li><a href="https://www.instagram.com/flowers.by.syd" target="_blank" rel="noopener">@flowers.by.syd</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Flowers by Syd. Made with love in Central Arkansas.</span>
+      <span>Delivery fees not included in listed pricing.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
